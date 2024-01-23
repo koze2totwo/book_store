@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<script src="new.js"></script>
+<body>
+    <header>
+    <div class="logo"> <img src="wandering-bookseller-logo-400x128.gif" height="90px" width="200px" alt="">
+    
+    <span class="head">The wandering Books</span>
+    </div>
+    <ul class="nav">
+        <li class="nave"><a href="index.html">HOME</a></li>
+        <li class="nave"><a href="login.html">LOGIN</a></li>
+        <li class="nave"><a href="registration.html">REGISTRAION</a></li>
+        <li class="nave"><a href="books.html">CATALOGUE</a></li>
+        <li class="nave"><a href="cart.html">CART</a></li>
+    </ul>
+   </header>
+
+    <div class="main">
+    <nav>
+        <ul class="sidebar">
+            <li class="active"><a  class="side" href="books.html">CES</a></li>
+            <li id="side"><a  class="side" href="#">ECE</a></li>
+            <li id="side"><a  class="side" href="#">EEE</a></li>
+            <li id="side"><a  class="side" href="#">CIVIL</a></li>
+            <li id="side"><a  class="side" href="#">BCA</a></li>
+        </ul>
+    </nav>
+
+<div class="opacity">
+        <form class="login" action="https://httpbin.org/get" method="get" style="position: relative;">
+        <h2> Login</h2>
+        <p class="user">User Name</p>
+        <input type="text" name="username" class="username" autocomplete="on" placeholder="Enter" required>
+        <br><br>
+        <p class="pass">Password</p>
+        <input type="password" name="password" class="password" autocomplete="on" placeholder="▪▪▪▪▪▪▪▪" required>
+        <div>
+        <button class="connect" type="submit">Connect</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
