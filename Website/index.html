@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+    <script>
+        
+        function change(m){
+            
+    if(m==1){
+        document.getElementById("republic").src = "BBI-Test-pep.jpg";
+    }
+    else if(m==2){
+        document.getElementById("republic").src = "BBI-Republic-day.jpg";
+    }}
+    </script>
+
+    <header>
+        <div class="logo"> <img src="download.jpeg" height="90px" width="200px" alt="">
+            <span class="head">Greenlight Books Store</span></div>
+        <ul class="nav">
+            <li class="nave"><a href="index.html">HOME</a></li>
+            <li class="nave"><a href="login.html">LOGIN</a></li>
+            <li class="nave"><a href="registration.html">REGISTRAION</a></li>
+            <li class="nave"><a href="books.html">CATALOGUE</a></li>
+            <li class="nave"><a href="">CART</a></li>
+        </ul>
+       </header>
+    
+    <div class="repub">
+        <input type="button" onclick="change(2)" value="<">
+       <img src="BBI-Republic-day.jpg" id="republic" width="800px">
+       <input type="button" onclick="change(1)" value=">">
+      
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+:root{
+    --primary: #789461;
+    --secondary: #50623A;
+    --border: #DBE7C9;}
+body{
+    display: flex; background-color: var(--border); 
+    padding: 0; margin: 0; flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    margin-top:2rem;
+}
+.head{
+    top: 20%; position: absolute; left:45%;
+    text-align: center; font-size: 200%; font-weight: bolder;
+    color: white; font-family: 'Courier New', Courier, monospace;
+}
+header{
+    position: sticky; top: 0; z-index: 1;
+} 
+.main{
+    display: grid; margin: 0; grid-template-columns: 20rem 1fr;
+    padding: 0; gap: 2rem; min-height: 100vh;
+}
+nav{
+   position:sticky; top: 127px; max-height: 80vh;
+   width:269px; border-right:  var(--secondary) solid 2px;
+}
+nav ul{
+    display: flex; gap: 2rem; flex-direction: column;
+    padding: 0;
+}
+.sidebar li{
+    list-style: none; width: 265px; padding-right: 0;
+    text-align: center; border-radius: 100vh 0 0 100vh;
+    font-size: 140%;
+}
+.sidebar li.active{
+    background-color: var(--border);
+}
+a{
+    text-decoration: none; color: var(--primary);
+}
+.nav {
+    display: flex; margin: 0; padding: 0;
+    background-color:var(--border);  
+}
+.nav .nave{
+    width: 100%; height: 35px; font-size: 140%; display: flex;
+    justify-content: center; align-items: center; list-style-type: none;
+    border:1px var(--secondary) solid; text-align: center;
+}
+.nav .nave a{
+    padding: 10px;
+}
+.logo{
+   height: 90px; background-color: var(--primary);
+}
+h2{
+    text-align: center;
+}
+.form{
+    display: flex; gap: 200px; margin-left: 100px;
+    border: 2px solid black; width: 800px;
+    font-size: large; color: antiquewhite;
+    background: linear-gradient(#50623A,#4c5f2f,#789461);
+    font-family: 'Times New Roman', Times, serif;
+}
+.label{
+    margin-left:150px; margin-top: 20px ; margin-bottom: 20px;
+}
+.inputs{
+    margin-top: 20px; margin-right: 200px; margin-bottom: 20px;
+}
+.but{
+    background-color: #ddbbec; width: 80px; height: 40px;
+}

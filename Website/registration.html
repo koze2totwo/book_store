@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <script src="new.js"></script>
+    <header>
+        <div class="logo"> <img src="download.jpeg" height="90px" width="200px" alt="">
+            <span class="head">Greenlight Books Store</span> </div>
+        <ul class="nav">
+            <li class="nave"><a href="index.html">HOME</a></li>
+            <li class="nave"><a href="login.html">LOGIN</a></li>
+            <li class="nave"><a href="registration.html">REGISTRAION</a></li>
+            <li class="nave"><a href="books.html">CATALOGUE</a></li>
+            <li class="nave"><a href="cart.html">CART</a></li>
+        </ul>
+       </header>
+    <div class="main">
+        <nav>
+            <ul class="sidebar">
+                <li class="active"><a  class="side" href="books.html">CES</a></li>
+                <li id="side"><a  class="side" href="#">ECE</a></li>
+                <li id="side"><a  class="side" href="#">EEE</a></li>
+                <li id="side"><a  class="side" href="#">CIVIL</a></li>
+                <li id="side"><a  class="side" href="#">BCA</a></li>
+            </ul>
+        </nav>
+       
+        <form action="index.html" onsubmit="return validate()" class="register">
+            <h2>Registration Form</h2>
+            <div class="form">
+            <div class="label">
+            <label>Name</label><br><br>
+            <label >Password</label><br><br>
+            <label>E-Mail</label><br><br>
+            <label>Phone Number</label><br><br>
+            <label>Sex</label><br><br>
+            <label>Date of Birth</label><br><br>
+            <label>Languages Known</label><br><br>
+            <label>Address</label><br><br>
+            
+        </div>
+        <div class="inputs">
+        <input type="text" id="username" placeholder="Jane Doe">
+        <br><br>
+        <input type="password" id="password" placeholder="----------">
+        <br><br>
+        <input type="email" id="email" placeholder="Forexample@gmail.com">
+        <br><br>
+        <input type="tel" id="phone" placeholder="1234567890">
+        <br><br>
+        <input type="radio"><span>Male</span>
+        <input type="radio"><span>Female</span>
+        <br><br>
+        <input type="date"><br>
+        <input type="checkbox"><span>Hindi</span>
+        <input type="checkbox"><span>English</span>
+        <input type="checkbox"><span>Telugu</span>
+        <input type="checkbox"><span>Tamil</span>
+        <br><br>
+        <textarea  cols="30" rows="5"></textarea><br><br>
+        <input type="submit" onclick="validate()" class="but">
+        </div>
+        </div>
+        </form>
+        </div>
+</body>
+</html>

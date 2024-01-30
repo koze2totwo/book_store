@@ -1,0 +1,17 @@
+body{background-image: url(lain.jpg);}
+main{ font-family: monospace;
+    font-size: large;display: grid;gap: 10px;
+    column-gap: 5px;grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(2,2fr);flex-wrap: wrap;
+    justify-content: center;align-items: center;margin: 50px
+}
+h1{
+    color: rgb(17, 18, 68);text-align: center;background-color: rgba(255, 255, 255, 0.692); }
+p{padding-left: 6px;}
+input{margin-left: 20px;}
+div{
+    background-image: url(sell.jpg);height: 220px;
+    width: 200px;color: antiquewhite;}
+button{
+    margin-left: 400px;width: 100px;height: 50px;background-color: black;color: antiquewhite;
+}
